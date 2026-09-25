@@ -13,7 +13,7 @@ Pocketly is a modern mobile finance application designed for students (mahasiswa
 
 ## Tech Stack
 
-Frontend: Flutter, Dart, Provider, fl_chart, Google Fonts
-Backend: Node.js, Express, Drizzle ORM, JSON Web Token, bcrypt
-Database: PostgreSQL (NeonDB)
-Platforms: Android (primary), iOS, Web, Windows, macOS, Linux
+- Frontend: Flutter, Dart, Provider, fl_chart, Google Fonts
+- Backend: Node.js, Express, Drizzle ORM, JSON Web Token, bcrypt
+- Database: PostgreSQL (NeonDB)
+- Platforms: Android (primary), iOS, Web, Windows, macOS, Linux
