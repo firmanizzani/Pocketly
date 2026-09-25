@@ -1,17 +1,19 @@
-# Pocketly
+# Pocketly - Personal Finance Management App for Students
 
-A new Flutter project.
+Pocketly is a modern mobile finance application designed for students (mahasiswa & pelajar) to take control of their personal money. Built with Flutter and powered by an Express API, Pocketly lets users record every rupiah that goes in and out, plan a monthly budget, and understand their spending habits through interactive reports — all secured with JWT authentication.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Secure Auth & Session:** Register and login with bcrypt-hashed passwords, JWT-authenticated sessions, "remember me", and encrypted token storage via flutter_secure_storage.
+- **Dashboard:** Real-time overview of total balance, monthly income and expenses, budget usage progress, and the latest transactions at a glance.
+- **Transaction Management:** Record income and expenses with categories, notes, dates, and quick filters (all / income / expense / category).
+- **Monthly Budget:** Set a monthly spending target with a live progress bar, remaining balance, usage percentage, and saving tips.
+- **Reports & Statistics:** Interactive pie chart and category breakdowns powered by fl_chart to visualize where the money goes.
+- **Profile Management:** Edit personal profile and update avatar directly from camera or gallery.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Frontend: Flutter, Dart, Provider, fl_chart, Google Fonts
+Backend: Node.js, Express, Drizzle ORM, JSON Web Token, bcrypt
+Database: PostgreSQL (NeonDB)
+Platforms: Android (primary), iOS, Web, Windows, macOS, Linux
